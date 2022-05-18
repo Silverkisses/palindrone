@@ -1,8 +1,11 @@
-console.log("Does this work?");
 let isPalindrome = false;
-function palindromeChecker(string){
-    console.log("I'm inside your function and will print to the console!");
+let reverseString = "";
+function palindromeChecker(palindromeString){
+    for (i = palindromeString.length-1; i>=0; i--){
+        reverseString = reverseString + palindromeString[i];
+    }
     return isPalindrome;
 }
 palindromeChecker("test");
 console.log(isPalindrome);
+console.log(reverseString);
