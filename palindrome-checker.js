@@ -1,7 +1,8 @@
 console.log("Does this work?");
-function palidromeChecker(string){
-    let isPalindrome = false;
+let isPalindrome = false;
+function palindromeChecker(string){
     console.log("I'm inside your function and will print to the console!");
     return isPalindrome;
 }
-palindromeChecker()
+palindromeChecker("test");
+console.log(isPalindrome);
