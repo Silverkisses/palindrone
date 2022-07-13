@@ -9,8 +9,10 @@ function palindromeChecker(palindromeString){
     } else {
         isPalindrome = false;
     }
+    // Review the following:
+    /*isPalindrome = (palindromeString === reverseString) */
     return isPalindrome;
 }
-palindromeChecker("mom");
+palindromeChecker("clearlynotapalindrome");
 console.log(isPalindrome);
 console.log(reverseString);
